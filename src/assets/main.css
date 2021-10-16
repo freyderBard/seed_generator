@@ -1,0 +1,69 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,700;1,100&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@800&family=Roboto:ital,wght@0,400;0,700;1,100&display=swap");
+body {
+  font-family: Roboto;
+  position: absolute;
+  display: flex;
+  width: 100%;
+  height: 100%;
+  background: #F2F6FF;
+  justify-content: center;
+  align-items: center; }
+
+.seed {
+  padding: 10px;
+  background: white;
+  border-radius: 10px;
+  display: flex;
+  width: 30%;
+  flex-direction: column;
+  align-items: center;
+  filter: drop-shadow(7px 10px 16px rgba(0, 0, 0, 0.25)); }
+  .seed .seed_success {
+    align-self: flex-start;
+    display: none;
+    font-size: 1em;
+    margin: 5px !important;
+    margin-left: 15px !important;
+    font-family: Montserrat;
+    color: rgba(239, 50, 84, 0.78); }
+  .seed-title {
+    font-family: Montserrat;
+    text-align: center;
+    color: #31507D;
+    width: 95%;
+    font-size: 1.5em;
+    margin-top: 25px !important;
+    margin: 5px; }
+  .seed_sub-title {
+    font-family: Roboto;
+    margin-top: 0px;
+    color: #9BA9C0; }
+  .seed .seed_block {
+    padding: 15px 15px;
+    border-radius: 10px;
+    border: 1px solid #9BA9C0;
+    padding: 5px;
+    padding: 15px;
+    font-size: 0.8em;
+    width: 85%;
+    height: 30px;
+    margin-bottom: 15px; }
+  .seed .seed_button {
+    margin: 5px;
+    width: 88%;
+    display: flex;
+    justify-content: space-between; }
+    .seed .seed_button button {
+      font-size: 1em;
+      border-radius: 10px;
+      color: #9BA9C0;
+      border: none;
+      margin: 5px 0px 5px 0px;
+      padding: 15px 25px 15px 25px; }
+    .seed .seed_button button:hover {
+      background: rgba(64, 62, 62, 0.15); }
+    .seed .seed_button-generate {
+      width: 80%; }
+
+/*# sourceMappingURL=main.css.map */
